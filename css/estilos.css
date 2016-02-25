@@ -1,0 +1,202 @@
+
+*
+{
+border: 0;
+margin: 0;
+}
+
+body{
+	padding-top:39px;
+	background:#F5F1F5;
+
+}
+hr{
+
+	border-bottom: 1px solid black;
+	border-top: 1px solid black;
+}
+#nav_top{
+background: #00b0f3;
+padding: 0.8em;
+font-size: 0.9em;
+color:white;
+}
+#nav-pequitas-kids{
+	border-top: 50em;
+}
+
+.ico_fc{
+	height: 18px;
+	width: 18px;
+}
+.jumbotron-main
+{
+background: ;
+color: black;
+background:url(../img/fondo24.png);
+
+}
+.img-enca{
+	margin-top: -0.7em;
+}
+.contactanos,.stilo-sub{
+	background:white;
+	padding:1em;
+	border-radius: 0.5em;
+	border: 0.5em solid #F5F1F5;
+
+}
+.btn-pequitas{
+	background: #a5d82e;
+}
+.color-menu{
+	background: #fd98aa;
+}
+.link:hover
+{
+/* efecto de acercamiento*/
+	-webkit-transform: scale(1.04);
+	-moz-transform: scale(1);
+}
+.contactanos:hover
+{
+/* efecto de acercamiento*/
+	-webkit-transform: scale(1.04);
+	-moz-transform: scale(1);
+	/* efecto de borde*/
+	-webkit-box-shadow: 0px 0px 10px rgba(74, 74, 74, 0.75);
+	-moz-box-shadow:    0px 0px 10px rgba(74, 74, 74, 0.75);
+	box-shadow:         0px 0px 10px rgba(74, 74, 74, 0.75);
+
+}
+
+.div-redes img{
+
+	margin:0 auto;
+
+	-webkit-box-shadow: 0px 0px 10px rgba(74, 74, 74, 0.75);
+	-moz-box-shadow:    0px 0px 10px rgba(74, 74, 74, 0.75);
+	box-shadow:         0px 0px 10px rgba(74, 74, 74, 0.75);
+	-webkit-transition: all 1s ease-in-out;
+	-moz-transition: all 1s ease-in-out;
+}
+.logo img{
+	margin:0 auto;
+	-webkit-transition: all 1s ease-in-out;
+	-moz-transition: all 1s ease-in-out;
+}
+.div-redes img:hover{
+	-webkit-transform: rotate(355deg);
+	-moz-transform: rotate(355deg);
+}
+.logo img:hover{
+	-webkit-transform: rotate(355deg);
+	-moz-transform: rotate(355deg);
+}
+.contactanos:hover{
+	-webkit-transform: rotate(355deg);
+	-moz-transform: rotate(355deg);
+}
+	
+#main {
+	}
+
+#header { 
+background: #428BCA;
+}
+
+h1 {font-weight: bold;
+	text-shadow: 5px 5px 10px white;
+}
+
+
+footer{
+	font-size: 12px;
+	color: #000000;
+	padding: 1em;
+	background: white;
+
+	
+}
+
+#footer a{
+	color: #000000;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+#footer a:hover{
+	color: #000000;
+	font-size: 12px;
+	text-decoration: underline;
+}
+
+
+.box_img2 {
+	
+	background:;
+	padding: 0.5em;
+	border-radius: 0.5em;
+	/* efecto de movimiento*/
+	-webkit-transition: all 1s ease-in-out;
+	-moz-transition: all 1s ease-in-out;
+
+
+}
+
+.box_int
+{
+	background:white;
+	padding:0.5em;
+	border-radius: 0.5em;
+	border: 0.2em solid #F5F1F5; 
+}
+
+
+.box_int:hover
+{
+/* efecto de acercamiento*/
+	-webkit-transform: scale(1.07);
+	-moz-transform: scale(1);
+	/* efecto de borde*/
+	-webkit-box-shadow: 0px 0px 10px rgba(74, 74, 74, 0.75);
+	-moz-box-shadow:    0px 0px 10px rgba(74, 74, 74, 0.75);
+	box-shadow:         0px 0px 10px rgba(74, 74, 74, 0.75);
+
+}
+.agotado:hover
+{
+	background:url(../images/Jesus.png) left top no-repeat;
+}
+
+.box_razd {
+	width: 15px;
+	height: 50px;
+	float: left;
+}
+
+.g_text h4 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size:14px;
+	font-weight: 500;
+	color: #006CAD;
+	text-align: left;
+	padding: 5px 0px 0px 0px;
+}
+
+.rol_over:hover {
+background:url(../images/rol_over_galery.png) left top no-repeat;
+}
+
+.g_size {
+
+}
+
+.g_text {
+	
+}
+
+
+.gal_num {
+	
+}

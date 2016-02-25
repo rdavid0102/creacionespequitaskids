@@ -1,0 +1,17 @@
+RewriteEngine on
+Options -Indexes +FollowSymlinks
+
+RewriteBase /creacionespequitaskids/
+
+RewriteRule ^(lineas)/(.*)/(.*)/(galeria)/(productos)(.*)$ detalles.php?id_producto=$6
+RewriteRule ^(lineas)/(.*)/(.*)/(galeria)/(.*)$ galeria.php?id_sublinea=$5
+RewriteRule ^(lineas)/(.*)/(.*)$ lineas.php?$1&nom_linea=$2&id_linea=$3
+
+
+#RewriteRule ^aca va la nueva ruta o como quieres que va puedes separarlos por / por - como quiereas solo manten el mismo nivel entre carpetas$ luego viene la ruta original en este caso ./login/login.php
+
+#si se pasan variables por Get puedes hacer que no se vean las variables o que las varibles se vean como carpetas
+#RewriteRule ^(linea)/(.*)$ linea.php?id_linea=$3
+RewriteRule ^(cuentas)/(usuario)/(.*).html$ ./login/login.php?usuarios=$3
+
+#jesus es amor
